@@ -1,0 +1,680 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="Javascript/main.js">
+
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 4
+          }
+        }, {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 3
+          }
+        }]
+      });
+    });
+  </script>
+
+
+  <title>CDS Labour - Homepage</title>
+</head>
+
+<body>
+
+  <!-- TOP CONTACT SECTION------------------------------- -->
+
+  <div class="container-fluid top-contact-section">
+    <div class="row top-contact-top-row">
+
+      <div class="col-lg-4">
+        <img class="top-email" src="images/icons/email icon.png" alt="Email Icon">
+        <p class="top-email-text">Info@cdslabour.co.uk</p>
+      </div>
+
+      <div class="col-lg-4">
+        <img class="top-phone" src="images/icons/phone icon.png" alt="Phone Icon">
+        <p class="top-phone-text">03333 44 21 44</p>
+      </div>
+
+      <div class="col-lg-4">
+        <a href="#"><img class="top-facebook-icon" src="images/icons/facebook icon.png" alt="Facebook Icon"></a>
+        <a href="#"><img class="top-twitter-icon" src="images/icons/twitter icon.png" alt="Twitter Icon"></a>
+        <a href="#"><img class="top-linkedin-icon" src="images/icons/linkedin icon.png" alt="Linkedin Icon"></a>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <button class="btn btn-outline-primary register-btn"><img class="top-pen-icon" src="images/icons/pen icon.png"
+            alt="Pen Icon">
+          Register Your
+          CV</button>
+        <button class="btn btn-outline-success portal-btn"><img src="images/icons/user icon.png" alt="User Icon">
+          Customer
+          Portal</button>
+        <div class="btn btn-outline-warning saved-btn"><img src="images/icons/heart icon.png" alt="Heart Icon"> Saved
+          Jobs</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN NAVBAR------------------------------------- -->
+
+  <nav class="navbar navbar-expand-md">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">CDS Labour</a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <img class="nav-toggler" src="images/nav toggle.png" alt="Nav Toggler">
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link main-nav-about" href="#">About Us</a>
+        </li>
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link main-nav-services" href="#" id="navbardrop" data-toggle="dropdown">
+            Services
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Agriculture</a>
+            <a class="dropdown-item" href="#">Horticulture</a>
+            <a class="dropdown-item" href="#">Industrial</a>
+            <a class="dropdown-item" href="#">Driving</a>
+            <a class="dropdown-item" href="#">Construction</a>
+            <a class="dropdown-item" href="#">Poultry</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link main-nav-portfolio" href="#">Portfolio</a>
+        </li>
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link main-nav-jobs" href="#" id="navbardrop" data-toggle="dropdown">
+            Jobs
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Field Work</a>
+            <a class="dropdown-item" href="#">Factory Work</a>
+            <a class="dropdown-item" href="#">HGV Class 1 & 2 Drivers</a>
+            <a class="dropdown-item" href="#">Forklift Drivers</a>
+            <a class="dropdown-item" href="#">Tractor Drivers</a>
+          </div>
+        </li>
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link main-nav-locations" href="#" id="navbardrop" data-toggle="dropdown">
+            Locations
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Hop Pole (Head Office)</a>
+            <a class="dropdown-item" href="#">Spalding</a>
+            <a class="dropdown-item" href="#">Wisbech</a>
+            <a class="dropdown-item" href="#">Boston</a>
+            <a class="dropdown-item" href="#">Peterborough</a>
+            <a class="dropdown-item" href="#">Nocton</a>
+            <a class="dropdown-item" href="#">Immingham</a>
+            <a class="dropdown-item" href="#">Scotland</a>
+            <a class="dropdown-item" href="#">Sofia (Bulgaria)</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link main-nav-workers" href="#">Workers</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- MAIN BANNER------------------------------------ -->
+
+  <div class="container-fluid main-banner">
+
+    <!--Start code-->
+    <div class="row">
+      <div class="col-12 pb-5">
+        <!--SECTION START-->
+        <section class="row">
+          <!--Start slider news-->
+          <div class="col-12 col-md-6 pb-0 pb-md-3 pt-2 pr-md-1">
+            <img class="main-logo" src="images/cds labour logo.png" alt="CDS Labour Logo">
+            <h2 class="banner-slogan">We offer a quality, personalized service tailored <br> to your staffing
+              requirements</h2>
+            <div class="btn btn-warning btn-lg banner-btn">View Information Pack</div>
+            <div class="icons-header">
+              <img class="header-left-tractor-image" src="images/header images/tractor.png" alt="Tractor Image">
+              <img class="header-left-field-worker-image" src="images/header images/field worker.png"
+                alt="Field Worker Image">
+              <img class="header-left-hgv-image" src="images/header images/hgv.png" alt="HGV Image">
+            </div>
+          </div>
+          <!--End slider news-->
+
+          <!--Start box news-->
+          <div class="col-12 col-md-6 pt-2 pl-md-1 mb-3 mb-lg-4">
+            <div class="row">
+              <!--news box-->
+              <div class="col-6 pb-1 pt-0 pr-1">
+                <div class="card border-0 rounded-0 text-white overflow zoom">
+                  <div class="position-relative">
+                    <!--thumbnail img-->
+                    <div class="ratio_right-cover-2 image-wrapper">
+                      <a href="#">
+                        <img class="img-fluid header-field-workers-img" src="images/field workers category img.jpg"
+                          alt="simple blog template bootstrap">
+                      </a>
+                    </div>
+                    <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                      <div class="btn btn-primary header-btn-category">View Jobs</div>
+                      <p class="header-text-category">Click to view our selection of field jobs</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--news box-->
+              <div class="col-6 pb-1 pl-1 pt-0">
+                <div class="card border-0 rounded-0 text-white overflow zoom">
+                  <div class="position-relative">
+                    <!--thumbnail img-->
+                    <div class="ratio_right-cover-2 image-wrapper">
+                      <a href="#">
+                        <img class="img-fluid header-hgv-img" src="images/hgv category img.jpg"
+                          alt="bootstrap templates for blog">
+                      </a>
+                    </div>
+                    <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                      <!-- category -->
+                      <div class="btn btn-primary header-btn-category">View Jobs</div>
+                      <p class="header-text-category">Click to view our selection of HGV Driving jobs</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--news box-->
+              <div class="col-6 pb-1 pr-1 pt-1">
+                <div class="card border-0 rounded-0 text-white overflow zoom">
+                  <div class="position-relative">
+                    <!--thumbnail img-->
+                    <div class="ratio_right-cover-2 image-wrapper">
+                      <a href="#">
+                        <img class="img-fluid header-tractor-img"
+                          src="https://bmcontent.affino.com/AcuCustom/Sitename/DAM/329/230819p96104JohnDeere6250R-9709_Main.jpg"
+                          alt="bootstrap blog wordpress theme">
+                      </a>
+                    </div>
+                    <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                      <!-- category -->
+                      <div class="btn btn-primary header-btn-category">View Jobs</div>
+                      <p class="header-text-category">Click to view our selection of Tractor Driving jobs</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--news box-->
+              <div class="col-6 pb-1 pl-1 pt-1">
+                <div class="card border-0 rounded-0 text-white overflow zoom">
+                  <div class="position-relative">
+                    <!--thumbnail img-->
+                    <div class="ratio_right-cover-2 image-wrapper">
+                      <a href="#">
+                        <img class="img-fluid header-forklift-img"
+                          src="https://s3-us-west-1.amazonaws.com/acropolis-wp-content-uploads/types-of-forklifts.jpg"
+                          alt="blog website templates bootstrap">
+                      </a>
+                    </div>
+                    <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                      <!-- category -->
+                      <div class="btn btn-primary header-btn-category">View Jobs</div>
+                      <p class="header-text-category">Click to view our selection of Forklift Driving jobs</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--end news box-->
+            </div>
+          </div>
+          <!--End box news-->
+        </section>
+        <!--END SECTION-->
+      </div>
+    </div>
+    <!--end code-->
+  </div>
+
+  <!-- FEATURES SECTION----------------------------------- -->
+
+  <div class="features-section-main">
+    <div class="container">
+      <h3 class="features-section-header">Features</h3>
+      <p class="features-section-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sapiente
+        excepturi deserunt tempora! Ipsum,
+        reprehenderit. Natus itaque odio ad saepe, eius minima! Assumenda, iusto? Temporibus aliquam quos impedit facere
+        totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolorum enim voluptas nisi unde? Magni
+        repellendus deserunt temporibus. Totam doloremque optio velit dignissimos dolor assumenda ad laboriosam
+        repudiandae distinctio quibusdam.</p>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <img class="features-icon" src="images/icons/car icon.png" alt="Car Icon">
+          <p class="features-icon-text">Optional transport provided to all our workers to ensure they are taken to work
+            & picked up on time</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <img class="features-icon" src="images/icons/house icon.png" alt="House Icon">
+          <p class="features-icon-text">Optional accommodation provided to all our workers, to ensure they have a warm
+            place to stay while they are
+            working for us</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <img class="features-icon" src="images/icons/check mark.png" alt="Check mark icon">
+          <p class="features-icon-text">New customers are offered 30 days credit, so you can earn from your new staff
+            before you have to pay us
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VACANCIES-------------------------------------- -->
+
+  <div class="container vacancies-section">
+    <h3 class="vacancies-header">Job Vacancies</h3>
+    <p class="vacancies-text">At CDS Labour we have a wide variety of jobs to suit everyone's needs. If you are after
+      part time or full time
+      work we have you covered and we cater for all positions, farm work, factory work, driving jobs and so on....</p>
+    <div class="accordian">
+      <ul>
+        <li>
+          <div class="image_title">
+            <div class="btn btn-primary">View Details</div>
+          </div>
+          <img src="images/adverts/strawberry and reaspberry pickers.jpg" alt="Strawberry and Raspberry Picking Advert"
+            style="width: 100%; height: 320px;">
+          </a>
+        </li>
+        <li>
+          <div class="image_title">
+            <div class="btn btn-primary">View Details</div>
+          </div>
+          <img src="images/adverts/hgv vacancies.jpg" alt="HGV Advert" style="width: 100%; height: 320px;">
+          </a>
+        </li>
+        <li>
+          <div class="image_title">
+            <div class="btn btn-primary">View Details</div>
+          </div>
+          <img src="images/adverts/potato graders.jpg" alt="Potato Grading" style="width: 100%; height: 320px;">
+          </a>
+        </li>
+        <li>
+          <div class="image_title">
+            <div class="btn btn-primary">View Details</div>
+          </div>
+          <img src="images/adverts/forklift vacancies.jpg" alt="Forklift Driver Vacancies"
+            style="width: 100%; height: 320px;">
+          </a>
+        </li>
+        <li>
+          <div class="image_title see-more-adverts">
+            <div class="btn btn-primary">View More Jobs</div>
+          </div>
+          <img class="adverts-see-more-img" src="images/adverts/more jobs advert.jpg" alt="CDS Labour Logo">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- OUR TEAM SECTION---------------------------- -->
+
+  <div class="container team-section">
+    <h3 class="team-header">Meet The Team</h3>
+    <p class="team-text">The team at CDS Labour is very hard working, they all fit into their role perfectly and are
+      always willing to
+      help out in other departments when needed. We all work around the clock to ensure that our workers are happy and
+      CDS Labour runs as smoothly as possible.</p>
+    <div class="row">
+
+      <!--team-1-->
+      <div class="col-lg-3">
+        <div class="our-team-main">
+
+          <div class="team-front">
+            <img src="images/The team/carl.jpg" class="img-fluid" style="width: 100px; height: 100px;" />
+            <h3>Carl Steele</h3>
+            <p>Director</p>
+          </div>
+
+          <div class="team-back">
+            <span>
+              Carl is a cool guy that is almost impossible to get hold of but always has your best interests at heart.
+            </span>
+          </div>
+
+        </div>
+      </div>
+      <!--team-1-->
+
+      <!--team-2-->
+      <div class="col-lg-3">
+        <div class="our-team-main">
+
+          <div class="team-front">
+            <img src="images/The team/linda.jpg" class="img-fluid" style="width: 100px; height: 100px;" />
+            <h3>Linda Mouldon</h3>
+            <p>Carl's Assistant</p>
+          </div>
+
+          <div class="team-back">
+            <span>
+              Linda is a brilliant woman, always helps out when needs be and is easier to get hold of than Carl is.
+            </span>
+          </div>
+
+        </div>
+      </div>
+      <!--team-2-->
+
+      <!--team-3-->
+      <div class="col-lg-3">
+        <div class="our-team-main">
+
+          <div class="team-front">
+            <img src="images/The team/chelsey.jpg" class="img-fluid" style="width: 100px; height: 100px;" />
+            <h3>Chelsey Johnson</h3>
+            <p>Transport Manager</p>
+          </div>
+
+          <div class="team-back">
+            <span>
+              Chelsey is a very blunt person, says it how it is and does a brilliant job on transport.
+            </span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="our-team-main">
+
+          <div class="team-front">
+            <img src="images/The team/sam.jpg" class="img-fluid" style="width: 100px; height: 100px;" />
+            <h3>Sam Langley</h3>
+            <p>Recruitment Manager</p>
+          </div>
+
+          <div class="team-back">
+            <span>
+              Sam is ok, he keeps calm under pressure and deals with problems quickly and efficiently.
+            </span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- OUR CLIENTS SECTION------------------------------------------ -->
+
+  <div class="container-fluid clients-section">
+    <h2 class="clients-section-header">Past & Present Clients</h2>
+    <div class="container">
+      <p class="clients-section-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe est sapiente
+        repellat quia nobis ratione sint, perspiciatis reiciendis odit ipsum, fuga ducimus! Earum laborum aspernatur in
+        beatae tempora, alias possimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio similique,
+        obcaecati aliquam voluptatum nam modi amet. Labore eum deleniti, doloremque rerum eveniet dignissimos obcaecati
+        officiis suscipit ab, rem corporis aspernatur?</p>
+    </div>
+    <section class="customer-logos slider">
+      <div class="slide"><img class="neame-lea-logo" src="images/company logos/neame lea.png">
+      </div>
+      <div class="slide"><img class="bell-brothers-logo" src="images/company logos/bell brother nurseries.gif"></div>
+      <div class="slide"><img class="collmart-logo" src="images/company logos/collmart growers.jpg"></div>
+      <div class="slide"><img class="eddie-stobart-logo" src="images/company logos/eddie stobart.png"></div>
+      <div class="slide"><img class="greenplus-logo" src="images/company logos/greenplus ltd.png">
+      </div>
+      <div class="slide"><img class="emmett-logo" src="images/company logos/emmett.png"></div>
+      <div class="slide"><img class="kgb-logo" src="images/company logos/kgb transport.png"></div>
+      <div class="slide"><img class="moulton-bulb-logo" src="images/company logos/moulton bulb.png">
+      </div>
+      <div class="slide"><img class="pro-clean-logo" src="images/company logos/pro clean industrial.png"></div>
+    </section>
+  </div>
+
+  <!-- FOOTER------------------------------------------ -->
+
+  <footer id="dk-footer" class="dk-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-4">
+          <div class="dk-footer-box-info">
+            <a href="index.html" class="footer-logo">
+              <img class="main-logo-footer" src="images/cds labour logo.png" alt="footer_logo" class="img-fluid">
+            </a>
+            <div class="footer-social-link">
+              <h3>Follow us</h3>
+              <ul>
+                <li>
+                  <a href="#">
+                    <img class="footer-icon-email" src="images/footer/email footer icon.png" alt="Email Icon">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img class="footer-icon-facebook" src="images/footer/facebook footer icon.png" alt="Facebook Icon">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img class="footer-icon-twitter" src="images/footer/twitter footer icon.png" alt="Twitter Icon">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img class="footer-icon-linkedin" src="images/footer/linkedin footer icon.png" alt="Linkedin Icon">
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- End Social link -->
+          </div>
+          <!-- End Footer info -->
+          <div class="footer-awarad">
+            <img class="alp-membership" src="images/alp mamber.jpg" alt="ALP Member Image">
+          </div>
+        </div>
+        <!-- End Col -->
+        <div class="col-md-12 col-lg-8">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="contact-us">
+                <div class="contact-icon">
+                  <i class="fa fa-map-o" aria-hidden="true"></i>
+                </div>
+                <!-- End contact Icon -->
+                <div class="contact-info">
+                  <h3 class="footer-address-header">Head Office</h3>
+                  <p class="footer-address-text">The Office, Chapel Farm, Hop Pole,
+                    Spalding, Lincolnshire, PE11 3DS, England, UK</p>
+                </div>
+                <!-- End Contact Info -->
+              </div>
+              <!-- End Contact Us -->
+            </div>
+            <!-- End Col -->
+            <div class="col-md-6">
+              <div class="contact-us contact-us-last">
+                <div class="contact-icon">
+                  <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                </div>
+                <!-- End contact Icon -->
+                <div class="contact-info">
+                  <h3 class="footer-contact-header">Contact Us</h3>
+                  <p class="footer-contact-text">03333 44 21 44</p>
+                  <p class="footer-contact-text">Info@cdslabour.co.uk</p>
+                </div>
+                <!-- End Contact Info -->
+              </div>
+              <!-- End Contact Us -->
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Contact Row -->
+          <div class="row">
+            <div class="col-md-12 col-lg-6">
+              <div class="footer-widget footer-left-widget">
+                <div class="section-heading">
+                  <h3>Useful Links</h3>
+                </div>
+                <ul>
+                  <li>
+                    <a href="#">About us</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="#">Services</a>
+                  </li>
+                  <li>
+                    <a href="#">Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="#">Our Team</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- End Footer Widget -->
+            </div>
+            <!-- End col -->
+            <div class="col-md-12 col-lg-6">
+              <div class="footer-widget">
+                <div class="section-heading">
+                  <h3 class="footer-subscribe">Subscribe</h3>
+
+                </div>
+                <p class="footer-subscribe-paragraph">
+                  <!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
+                  Enter your email below to receive the latest news & keep upto date with everything that's happening
+                  at
+                  CDS Labour</p>
+                <form action="#">
+                  <div class="form-row">
+                    <div class="input-group mb-3">
+                      <input type="email" class="form-control" placeholder="Enter Email Here....">
+                      <div class="input-group-append">
+                        <button class="btn subscribe-btn" type="submit">Go</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <!-- End form -->
+              </div>
+              <!-- End footer widget -->
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Row -->
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Widget Row -->
+    </div>
+    <!-- End Contact Container -->
+
+
+    <div class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <span>* Copyright © 2020, All Right Reserved Revival Web Design *</span>
+          </div>
+          <!-- End Col -->
+          <div class="col-md-6">
+            <div class="copyright-menu">
+              <ul>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">Terms</a>
+                </li>
+                <li>
+                  <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End col -->
+        </div>
+        <!-- End Row -->
+      </div>
+      <!-- End Copyright Container -->
+    </div>
+    <!-- End Copyright -->
+  </footer>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+
+
+
+  <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
